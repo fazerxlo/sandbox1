@@ -83,8 +83,10 @@ group :cucumber do
   gem "bermuda"
   gem "capybara"
 
+  # See https://github.com/bigfix/phantomjs-gem/tree/more_windows_support
   gem "phantomjs", "= 1.9.8.0.efc930e9b3a2f8ed9ba851007d5c86beafd234e6"
 
+  # Bug in 1.6.0 with hidden elements, see https://github.com/teampoltergeist/poltergeist/issues/628
   gem "poltergeist", "~> 1.9"
   gem "chronic"
 end

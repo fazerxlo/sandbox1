@@ -1,5 +1,4 @@
 GEM
-  remote: http://127.0.0.1:8000/
   specs:
     abstract (1.0.0.d86eb2255aefb5c0ce4dd2351dbbf4b9e22264ad)
     actionmailer (4.2.6)
@@ -396,4 +395,4 @@ RUBY VERSION
    ruby 2.3.3p0 (jruby 9.1.17.0)
 
 BUNDLED WITH
-   1.16.2
+   1.17.1
